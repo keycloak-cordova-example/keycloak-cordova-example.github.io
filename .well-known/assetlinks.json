@@ -1,0 +1,10 @@
+<application>
+  <activity android:name=”MainActivity”>
+    <intent-filter android:autoVerify="true">
+      <action android:name="android.intent.action.VIEW" />
+      <category android:name="android.intent.category.DEFAULT" />
+      <category android:name="android.intent.category.BROWSABLE" />
+      <data android:scheme="https" android:host="keycloak-cordova-example.github.io" />
+    </intent-filter>
+  </activity>
+</application>
